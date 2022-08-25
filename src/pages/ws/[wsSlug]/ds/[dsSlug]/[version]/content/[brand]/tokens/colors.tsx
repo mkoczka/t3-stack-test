@@ -1,8 +1,7 @@
 import { ContentTokensLayout } from "components/content-tokens-layout";
 import type { NextPage } from "next";
-import { useState } from "react";
 import { trpc } from "utils/trpc";
-import { FieldValues, useForm } from "react-hook-form";
+import { useForm } from "react-hook-form";
 
 type FormValues = {
   name: string;

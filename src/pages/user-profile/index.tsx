@@ -1,5 +1,5 @@
-import React from "react";
+const UserProfilePage = () => {
+  return <div>User profile - index page</div>;
+};
 
-export const UserProfilePage = () => {
-    return <div>User profile - index page</div>
-}
+export default UserProfilePage;

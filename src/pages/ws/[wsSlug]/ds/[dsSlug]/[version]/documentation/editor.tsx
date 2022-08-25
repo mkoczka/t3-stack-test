@@ -5,7 +5,7 @@ import { ContentMain } from "components/content-main";
 import { Layout } from "components/layout";
 import dynamic from "next/dynamic";
 
-let DocumentationEditor = dynamic(
+const DocumentationEditor = dynamic(
   () => import("components/documentation-editor"),
   {
     ssr: false,
