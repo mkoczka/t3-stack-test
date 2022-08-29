@@ -18,4 +18,11 @@ model Example {
 model Colors {
     id String @id @default(cuid())
     name String 
+    color String @default("red")
+}
+
+model Typography {
+    id String @id @default(cuid())
+    name String 
+    font String @default("sans-serif")
 }
